@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       // home: HomePage(), //we can't have route default SLASH indicating to homepage and Home : homepage together
       themeMode: ThemeMode.light,
       theme: MyTheme.LightTheme(context),
-      darkTheme: MyTheme.LightTheme(context),
+      darkTheme: MyTheme.DarkTheme(context),
 
       debugShowCheckedModeBanner: false,
       initialRoute: MyRoutes.homeRoute,

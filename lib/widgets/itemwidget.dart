@@ -5,10 +5,12 @@ class ItemWidget extends StatelessWidget {
   final Item item;
 
   const ItemWidget({Key? key, required this.item}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 0.0,
+      
+      elevation: 2.0,
       child: ListTile(
         onTap: () {
           print("${item.Name} pressed");
@@ -17,11 +19,11 @@ class ItemWidget extends StatelessWidget {
         title: Text(item.Name),
         subtitle: Text(item.description),
         trailing: Text(
-          "${item.weight} kg",
+          item.weight.toString(),
+          textScaleFactor: 1.5,
           style: TextStyle(
-            color: Colors.black,
+            color: const Color.fromARGB(255, 66, 0, 0),
             fontWeight: FontWeight.bold,
-            fontSize: 14,
           ),
         ),
       ),

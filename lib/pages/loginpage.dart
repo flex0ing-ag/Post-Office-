@@ -90,7 +90,7 @@ class _LoginPageState extends State<LoginPage> {
                       borderRadius:
                           BorderRadius.circular(changeButton ? 50 : 8),
                       child: InkWell(
-                        //Justice detector and Inkwell to make the login button clickable as Container is not able to make it clickable.
+                        //Gesture detector and Inkwell to make the login button clickable as Container is not able to make it clickable.
                         onTap: () => moveToHome(context),
                         child: AnimatedContainer(
                           duration: Duration(seconds: 1),

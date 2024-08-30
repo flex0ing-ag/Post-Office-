@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": "ABC123",
+            "Name": "Jack",
+            "description": "Item dispatched from XYZ city",
+            "weight": 2.5,
+            "color": "#33505a",
+            "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/parcel-cardboard-box-VRewo6B-600.jpg"
+        },
+        {
+            "id": "ABC456",
+            "Name": "Jill",
+            "description": "Item dispatched from XYZ city",
+            "weight": 2.5,
+            "color": "#33505a",
+            "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/parcel-cardboard-box-VRewo6B-600.jpg"
+        },
+        {
+            "id": "ABC789",
+            "Name": "Jasmeet",
+            "description": "Item dispatched from XYZ city",
+            "weight": 2.5,
+            "color": "#33505a",
+            "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/parcel-cardboard-box-VRewo6B-600.jpg"
+        },
+        {
+            "id": "XYZ123",
+            "Name": "Jhony",
+            "description": "Item dispatched from XYZ city",
+            "weight": 2.5,
+            "color": "#33505a",
+            "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/parcel-cardboard-box-VRewo6B-600.jpg"
+        },
+        {
+            "id": "XYZ456",
+            "Name": "Jannat",
+            "description": "Item dispatched from XYZ city",
+            "weight": 2.5,
+            "color": "#33505a",
+            "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/parcel-cardboard-box-VRewo6B-600.jpg"
+        }
+    ]
+}
